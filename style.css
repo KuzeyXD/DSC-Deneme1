@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background: #f8f8f8;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color:rgb(119, 119, 119);
+}
+
+#navigation-bar{
+    z-index: 2;
+    display: inline;
+}
+
+#navlist li{
+    display: inline;
+    padding: 0 15px;
+    float: right;
+}
+
+#navlist{
+    z-index: 2;
+    position: absolute;
+    width: 95%;
+    top: 20px;
+    left: 50px;
+}
+
+#navlist img{
+    width: 180px;
+    height: 30px;
+    float: left;
+}
+
+.bg{
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg img{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    z-index: 0;
+}
+
+.main{
+    color: rgb(133, 16, 16);
+    text-align: center;
+}
+
+.main-text{
+    margin: 40px 0px;
+    color: rgb(255, 255, 255);
+    font-size: 44px;
+    background: transparent;
+    font-weight: 700;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    line-height: 2em;
+}
+
+.sub-text{
+    color: black;
+    margin-top: 110px;
+    font-size: 30px;
+
+}
+
+.subsub-text{
+    color: black;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 22px;
+    padding: 0 12%;
+}
+
+.bottom-text{
+    margin-top: 50px;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 0 4%;
+    font-size: 18px;
+    line-height: 1.7em;
+
+}
+
+.bottomest-text{
+    margin-top: 30px;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 0 4%;
+}
+
+.footer{
+    margin-top: 40px;
+    background: rgb(241, 241, 241);
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+}
+
+.footer img{
+    margin-top: 20px;
+}
+
+.footer h5{
+    margin-top: 20px;
+    padding-bottom: 10px;
+    color: rgb(138, 138, 138);
+    font-weight: 200;
+}
+
+.footer h5 b{
+    color: black;
+    border-bottom: 2px solid;
+}
+
+#end{
+    padding-bottom: 100px;
+}
